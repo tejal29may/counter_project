@@ -1,0 +1,79 @@
+.container{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    /* background-image: url("https://github.com/Mayankkatheriya/Weekly_Test_3_Shopping_Cart/blob/main/front-view-woman-with-shopping-bag-concept_23-2148674158.jpg?raw=true"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-color: rgb(135, 232, 217); */
+    
+
+}
+.product{
+    /* border: 6px solid rgb(103, 155, 246); */
+    /* border-radius: 20px 0 0 20px; */
+    border: 5px solid rgb(103, 155, 246);
+    border-radius: 20px;
+    width: 50%;
+    min-width: 300px;
+    max-width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    backdrop-filter: blur(20px);
+    margin: 10% auto;
+    /* background-color: cadetblue; */
+    background-color: cornflowerblue;
+    /* background-color: white; */
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.buttons{
+    height: 40px;
+    width: 200px;
+    border: 1px solid green;
+    display: flex;
+    border-radius: 7px;
+    justify-content: space-between;
+    cursor: pointer;
+    /* background-color: rgb(255, 127, 242); */
+}
+button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.b1{
+    width: 55px;
+}
+.count{
+    transition: all;
+}
+p{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
